@@ -1,5 +1,12 @@
 @import url(fonts/fonts.css);
 
+:root {
+    --bg:  #171A27;
+    --bg-light: #202436;
+    --bg-text: #525d8a;
+    --text-normal: #b4b4b4;
+
+}
 /* Generated rules from HTML.pm centralized here */
 a.summary-letter {text-decoration: none}
 div.display {margin-left: 0em}
@@ -24,7 +31,7 @@ ul.no-bullet {list-style: none}
 html {
   font-family: "Linux Libertine O", serif;
   font-size: 170%; /* 100% for epub */
-  color: #383838;
+  color: var(--text-normal);
   line-height: 130%;
   /* 'liga' turns on ligatures, 'ss06' picks alternate ampersand */
   -moz-font-feature-settings: "liga" 1, "ss06";
@@ -57,7 +64,7 @@ html {
 }
 
 body {
-  background-color: #f8f8f8;
+  background-color: var(--bg-light);
   margin: 0;
   position: relative;
 }
@@ -229,7 +236,7 @@ nav.header p {
   font-size: 0.9rem;
   padding: 0.5em;
   margin: 0;
-  background-color: #f0f0f0;
+  background-color: var(--bg-light);
 }
 
 nav.header a[href] {
@@ -490,3 +497,4 @@ a#References ~ p {
   bottom: 0; 
   padding: 0.4ex 0.0ex;
 }
+

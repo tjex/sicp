@@ -1,7 +1,25 @@
 /* Pretty printing styles. Used with prettify.js. */
 
+:root {
+    --bg:  #171A27;
+    --bg-light: #202436;
+    --bg-text: #525d8a;
+    --text-normal: #b4b4b4;
+
+    /* --noir_0: #f5f5f5; */
+    /* --noir_1: #d5d5d5; */
+    /* --noir_2: #b4b4b4; */
+    --noir_3: #a7a7a7;
+    /* --noir_4: #949494; */
+    /* --noir_5: #737373; */
+    /* --noir_6: #535353; */
+    /* --noir_7: #323232; */
+    /* --noir_8: #212121; */
+    /* --noir_9: #212121; */
+
+}
 /* SPAN elements with the classes below are added by prettyprint. */
-.pln { color: #606060 }  /* plain text */
+.pln { color: var(--noir_3) }  /* plain text */
 
 @media screen {
   .str { color: #985098 }  /* string content */
