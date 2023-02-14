@@ -30,7 +30,7 @@ ul.no-bullet {list-style: none}
 
 html {
   font-family: "Inconsolata LGC", serif;
-  font-size: 130%; /* 100% for epub */
+  font-size: 120%; /* 100% for epub */
   color: var(--text-normal);
   line-height: 130%;
   /* 'liga' turns on ligatures, 'ss06' picks alternate ampersand */
