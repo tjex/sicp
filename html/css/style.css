@@ -5,6 +5,7 @@
     --bg-light: #202436;
     --bg-text: #525d8a;
     --text-normal: #b4b4b4;
+    --global-font: "Inconsolata LGC", sans-serif; 
 
 }
 /* Generated rules from HTML.pm centralized here */
@@ -29,7 +30,7 @@ span.sansserif {font-family:sans-serif; font-weight:normal}
 ul.no-bullet {list-style: none}
 
 html {
-  font-family: "Inconsolata LGC", serif;
+  font-family: var(--global-font);
   font-size: 120%; /* 100% for epub */
   color: var(--text-normal);
   line-height: 130%;
@@ -76,7 +77,7 @@ section {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Linux Biolinum O", sans-serif; 
+  font-family: var(--global-font);
   margin-top: 1.6em;
   margin-bottom: 1.0rem;
   line-height: 125%;
@@ -96,7 +97,7 @@ h3.section {
 }
   
 strong {
-  font-family: "Linux Biolinum O", sans-serif; 
+  font-family: var(--global-font); 
 }
 
 h1 { font-size: 1.88rem; }
@@ -232,7 +233,7 @@ a[href]:-webkit-any-link > sup {
 }
 
 nav.header p {
-  font-family: "Linux Biolinum O", sans-serif; 
+  font-family: var(--global-font); 
   font-size: 0.9rem;
   padding: 0.5em;
   margin: 0;
@@ -249,7 +250,7 @@ nav.header:last-of-type {
 }
 
 span.roman {
-  font-family: "Linux Libertine O", serif; 
+  font-family: var(--global-font);
   font-size: 0.96rem;
 }
 
@@ -328,7 +329,7 @@ table.menu td {
 }
 
 h2 ~ p:first-of-type:first-line, abbr {
-  font-family: "Linux Libertine O", serif; 
+  font-family: var(--global-font);
   letter-spacing: 0.04em;
   -moz-font-feature-settings: "onum", "c2sc", "smcp";
   -ms-font-feature-settings: "onum", "c2sc", "smcp";
@@ -345,7 +346,7 @@ h2 ~ p:first-of-type:first-letter {
   margin-left: -0.15ex;
   padding-left: 0;
   line-height: 0.83em;
-  font-family: "Linux Libertine O", serif;
+  font-family: var(--global-font);
   text-transform: uppercase;
   font-weight: normal;
   font-size: 3rem;
