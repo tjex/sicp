@@ -4,8 +4,8 @@
     --bg:  #171A27;
     --bg-light: #202436;
     --bg-text: #525d8a;
-    --text-normal: #b4b4b4;
-    --global-font: "Inconsolata LGC", sans-serif; 
+    --text-normal: #b3b3b3;
+    --global-font: "Linux Biolinum O", sans-serif;
 
 }
 /* Generated rules from HTML.pm centralized here */
@@ -33,7 +33,7 @@ html {
   font-family: var(--global-font);
   font-size: 120%; /* 100% for epub */
   color: var(--text-normal);
-  line-height: 130%;
+  line-height: 150%;
   /* 'liga' turns on ligatures, 'ss06' picks alternate ampersand */
   -moz-font-feature-settings: "liga" 1, "ss06";
   -ms-font-feature-settings: "liga" 1, "ss06";
@@ -65,14 +65,14 @@ html {
 }
 
 body {
-  background-color: var(--bg-light);
+  background-color: var(--bg);
   margin: 0;
   position: relative;
 }
 
 section {
   margin: 1em auto;
-  width: 67ex;
+  width: 40em;
   max-width: 88%;
 }
 
